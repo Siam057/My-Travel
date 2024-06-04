@@ -1008,8 +1008,7 @@ Mobile Type Responsive syntetx css
     }
 
     .input{
-        padding-right: 5rem;
-
+        padding-right: 0;
     }
         
 }
