@@ -1,0 +1,1015 @@
+
+/* === Start css coustomise property === */
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    text-transform: none;
+    transition: all .2s linear;
+    font-family: "Poppins", sans-serif;
+}
+
+html,body{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+section{
+    padding: 7rem 9%;
+}
+
+::-webkit-scrollbar{
+    width: 0.5rem;
+    background: #414262;
+    
+}
+
+
+::-webkit-scrollbar-thumb{
+    width: 0.5rem;
+    background:#d76e57 ;
+    border-radius:5rem ;
+}
+/* === Start css coustomise property close  === */
+
+
+
+.header_content header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    box-shadow:  20px 20px 33px #c5c5c5,-20px -20px 33px #fbfbfb;
+    padding: 2rem 9%;
+    background: #fff;
+}
+
+.header_content header .nabvar{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    column-gap: 1.8rem;
+    transition: all 0.3s ease;
+}
+
+.header_content header .nabvar a{
+    color: #292827;
+    font-weight: 500;
+}
+
+.header_content header .nabvar a:hover{
+    color: rgb(224,111,80);
+    transition: all 0.3s ease;
+}
+.header_content header .nabvar .Singup{
+    padding: 5px 10px;
+    border: 2px solid #f2a501;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.header_content header .nabvar .Singup:hover{
+    color: white;
+    background: #f2a601c7;
+    transition: all 0.3s ease;
+}
+
+
+.header_content header .log{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header_content header .bx {
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+/* ==== destinations section start === */
+.destinations{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.7fr 1fr;
+    margin-top:-8rem ;
+    background: #faf6f7;
+    gap: 5rem;
+}
+
+.destinations img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.destinations .destinations_text span{
+    font-size: 1.6rem;
+    line-height: 4rem;
+    font-weight: 600;
+    color: #d76e57;
+}
+
+.destinations .destinations_text h2{
+    font-size: 5rem;
+    line-height: 6rem;
+    font-weight: 700;
+    width: 400px;
+    color: #414262;
+}
+
+.destinations .destinations_text p{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    width: 500px;
+    padding-top: 20px;
+}
+.destinations .btnbox{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+   margin-top: 3rem;
+}
+.destinations .btnbox .btn{
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 15px 20px;
+    background: #f2a501;
+    border-radius: 0.5rem;
+}
+
+.bx-play{
+    padding: 8px;
+    background: #e16952;
+    font-size: 3rem;
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: -9px 9px 19px #d76f57bb,9px -9px 19px #d76f5752;
+}
+
+.destinations .btnbox .span {
+    font-size: 2rem;
+    color: #292827;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    
+}
+
+
+/* === hotels_continer section start === */
+.hotels_continer{
+    width: 100%;
+}
+.hotels_continer h5{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #292827;
+    text-align: center;
+}
+
+.hotels_continer h1{
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #414262;
+    text-align: center;
+}
+
+.hotels_box{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 4rem;
+    margin-top: 5rem;
+    padding: 4rem 2rem;
+}
+
+.hotels_box .card img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.hotels_box .card{
+    text-align: center;
+    padding: 2.5rem;
+    border-radius: 3rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.hotels_box .card:hover{
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+.hotels_box .card h2{
+    font-size: 1.8rem;
+    color: #292827;
+    line-height: 4rem;
+}
+
+.hotels_box .card p{
+    font-size: 1.2rem;
+}
+
+.shadow{
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+
+
+/* === Flight Section start === */
+
+.flights_container h5{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #292827;
+    text-align: center;
+}
+
+.flights_container h1{
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #414262;
+    text-align: center;
+}
+
+.flights_box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    padding: 2rem;
+}
+.flights_box .card {
+    padding: 0;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    border-radius: 3rem;
+    overflow: hidden;
+}
+.flights_box .card img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3rem 3rem 0  0;
+    cursor: pointer;
+}
+
+.flights_box .card:hover img{
+    transform: scale(1.1);
+}
+
+.flights_box .card .address{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flights_box .card .address h4{
+    font-size: 1.5rem;
+}
+
+.flights_box .card .address span{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.flights_box .card .date{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.flights_box .card .date i{
+    font-size: 2rem;
+}
+
+.flights_box .card .image{
+    overflow: hidden;
+}
+
+
+/* Booking section start */
+
+.booking_continer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+
+.booking_content h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 4rem;
+}
+
+.booking_content h1{
+    font-size: 4rem;
+    color: #414262;
+    font-weight: 500;
+}
+
+.booking_content .steps{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    margin-bottom: 3rem;
+}
+
+.booking_content .steps .bx-current-location {
+    padding: 15px;
+    color: white;
+    background: #f2a501;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+
+.booking_content .steps .bxs-wallet {
+    padding: 15px;
+    color: white;
+    background: #e16952;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+
+.booking_content .steps .bxs-car {
+    padding: 15px;
+    color: white;
+    background: #086082;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+.booking_content .steps h2{
+    font-size: 1.3rem;
+}
+
+.booking_content .steps p{
+    font-size: 1.2rem;
+    left: .5px;
+}
+
+.bxs-wallet{
+    background-color: #d76e57;
+}
+
+.booking_card {
+    padding:4rem ;
+    position: relative;
+}
+
+.booking_card .card{
+    box-shadow:  0px 0px 58px #2ea7e45b,0px 0px 10px #bebebe;
+    align-items: center;
+    padding: 2rem;
+    width: 350px;
+    border-radius: 2rem;
+}
+
+.booking_card .card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+.booking_card .card h3{
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+.booking_card .card span{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 3rem;
+}
+.booking_card .card .icon {
+    display: flex;
+    gap: 1rem;
+}
+.booking_card .card .icon .bx{
+    padding: 5px;
+    font-size: 2rem;
+    border: 2px solid #576574;
+    color: #576574;
+    border-radius: 3rem;
+}
+
+.booking_card .card  .likes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.booking_card .card  .likes .text{
+    display: flex;
+    align-items:center ;
+    gap: 1rem;
+}
+
+.bx-edit-alt{
+    font-size: 2rem;
+    color: #414262;
+}
+
+.booking_card .card  .likes .text h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.bx-heart{
+    font-size: 2rem;
+    color: #576574;
+}
+
+.another_card .image_text {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.another_card .image_text img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.another_card .image_text .text h4{
+    font-size: 1rem;
+    color: #8395a7;
+}
+
+.another_card .image_text .text h5{
+    font-size: 1.2rem;
+}
+
+.another_card  span{
+    color: #736ed7;
+}
+
+.another_card h3{
+    font-size: 1.2rem;
+    margin-left: 5rem;
+}
+
+.another_card .line {
+    width: 150px;
+    height: 5px;
+    background: #736ed75b;
+    margin-left: 5rem;
+    border-radius: 3rem;
+    position: relative;
+}
+
+.another_card .line::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    background: #736ed7;
+    border-radius: 3rem;
+}
+
+.another_card{
+    padding: 2.5rem 1rem 2.5rem;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    border-radius: 1.5rem;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    background: #fff;
+}
+
+
+
+/* === testimoniel Section === */
+.testimoniel{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+
+.testimoniel .testimonial_text span{
+    font-size: 1.5rem;
+    color: #576574;
+    font-weight: 500;
+}
+
+.testimoniel .testimonial_text h2{
+    font-size: 4.5rem;
+    color: #414262;
+    font-weight: 500;
+}
+.dotted{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.change_buttone{
+    width: 10px;
+    height: 10px;
+    background: #086082;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.dotted .color{
+    background: #8395a7;
+}
+
+.revew_box{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+#slider .card{
+    height: 300px;
+    padding: 40px;
+    line-height: 22px;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 1rem;
+}
+
+.profile img{
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);;
+}
+
+.profile_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_text h3{
+    font-size: 15px;
+}
+
+.profile_text p{
+    font-size: 10px;
+}
+
+#slider .card .long{
+    font-size: 1.3rem;
+}
+
+#slider {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.buttone_side{
+    width: 60px;
+    height: 100%;
+    padding: 15px 0;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttone_side img{
+    width: 45px;
+    padding: 5px;
+    background: #414262;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+/* === companey_logo star === */
+
+.companey_logo{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 2rem;
+}
+
+.companey_logo img{
+    width: 100%;
+    object-fit: cover;
+    height: 100px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+
+.companey_logo .images{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.companey_logo .images:hover{
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.image_active{
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+}
+
+/* === Email Section start ===*/
+.email{
+    width: 100%;
+}
+.email_container{
+    background: #cdcbf152;
+    width: 100%;
+    border-radius: 3rem 3rem 0rem 0rem;
+    position: relative;
+    padding: 2rem 10rem;
+}
+
+.email_container h2{
+    font-size: 3rem;
+    text-align: center;
+    color: #414262;
+    font-weight: 600;
+    padding-bottom: 3rem;
+}
+
+.email_container .bxs-paper-plane{
+    padding: 10px;
+    font-size: 3rem;
+    color: #fff;
+    border-radius: 50px;
+    /* background: linear-gradient(#736ed7,#6f69ec,); */
+    background: #736ed7;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: -15px;
+}
+
+.email_Input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background: #fff;
+    padding: 1.5rem;
+    padding-right: 8rem;
+    border-radius: 5px;
+}
+
+.input input{
+    background: transparent;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.email_Input .btn{
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    background: #d76e57;
+    cursor: pointer;
+}
+
+.email_Input .input .bxs-envelope{
+    font-size: 2rem;
+    color: #718093 ;
+}
+
+/* === footer section start === */
+.footer_container{
+    width: 100%;
+}
+
+.footer_container footer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 100%;
+}
+
+.footer_container footer .footer_box {
+    width: 100%;
+}
+
+.footer_container footer .footer_box h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #414262;
+}
+
+.footer_container footer .footer_box p{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #414262;
+    margin-top: 2rem;
+}
+
+.footer_container footer .company{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.footer_container footer .company h3{
+    font-size: 1.6rem;
+}
+
+.footer_container footer .company a{
+    font-size: 1.6rem;
+    color: #292827;
+    transition: all 1s ease;
+}
+
+.footer_container footer .company a i{
+    display: none;
+    color: #e16952;
+    transition: all 1s ease;
+}
+
+.footer_container footer .company a:hover i{
+    display: initial;
+    transition: all 1s ease;
+
+}
+
+.footer_container footer .company .social{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.footer_container footer .company .social a {
+    font-size: 2rem;
+    color: #d76e57;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 50%;
+    transition: all 0.4s linear;
+}
+
+.footer_container footer .company .social a:hover{
+    background: #d76e57;
+}
+.footer_container footer .company .social a:hover i{
+    color: white;
+}
+.footer_container footer .company .social a i{
+    display: initial;
+    line-height: 40px;
+}
+
+.footer_container footer .company h2{
+    font-size: 1.5rem;
+    color: #292827;
+}
+.footer_container footer .company imag{
+    width: 40px;
+    height: 10px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------
+Mobile Type Responsive syntetx css
+-------------------------------*/
+@media(max-width: 568px){
+    .header_content header .nabvar{
+        display: flex;
+        position: absolute;
+        align-items: start;
+        font-size: 1.5rem;
+        column-gap: 3rem;
+        width: 100%;
+        flex-direction: column;
+        top: -570px;
+        box-shadow:  20px 20px 33px #c5c5c5,-20px -20px 33px #fbfbfb;
+        background: #fff;
+        left: 0;
+        padding: 3rem;
+
+    }
+
+    .header_content header .nabvar a{
+        display: block;
+        padding: 1rem;
+        text-align: start;
+    }
+
+    .header_content header .bx {
+        font-size: 28px;
+        cursor: pointer;
+        display:initial;
+    }
+
+    .header_content header .nabvar.active{
+        transition: all 0.3s ease;
+        top: 100%;
+    }
+
+    .destinations{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top:-8rem ;
+        background: #faf6f7;
+        gap: 5rem;
+    }
+
+    .destinations .destinations_text span{
+        font-size: 1.5rem;
+        line-height: 4rem;
+        font-weight: 600;
+        color: #d76e57;
+    }
+    
+    .destinations .destinations_text h2{
+        font-size: 5rem;
+        line-height: 6rem;
+        font-weight: 500;
+         color: #414262;
+         width: 100%;
+    }
+
+    .destinations .destinations_text p{
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+        width: 100%;
+    }
+
+    .destinations .btnbox .btn{
+        font-size: 1.3rem;
+    }
+    
+
+    .hotels_box{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 8rem;
+        margin-top: 5rem;
+        padding: 4rem 2rem;
+    }
+
+    .flights_box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .another_card{
+        padding: 2.5rem 3rem 2.5rem;
+        box-shadow: none;
+        border-radius: 1.5rem;
+        position: relative;
+        top: none;
+        right: none;
+        background: transparent;
+    }
+
+    .booking_continer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 3rem;
+    }
+
+
+    .booking_card .card{
+        box-shadow:  0px 0px 58px #2ea7e494,0px 0px 10px #bebebe;
+        align-items: center;
+        padding: 2rem;
+        width: 100%;
+        border-radius: 2rem;
+    }
+
+    .booking_card {
+        padding:0rem ;
+        position: relative;
+    }
+
+    .testimoniel{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 3rem;
+    }
+
+    .testimoniel .testimonial_text h2{
+        font-size: 3.5rem;
+        color: #414262;
+        font-weight: 500;
+    }
+
+    .companey_logo{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }
+
+    .email_container h2{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .email_container{
+        padding: 2rem;
+    }
+    .email_Input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        gap: 1rem;
+
+    }
+
+    .footer_container footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+    }
+
+    .input{
+        padding-right: 5rem;
+
+    }
+        
+}

@@ -1,0 +1,130 @@
+
+ Html Syntext commone
+<!-------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protfolio Website</title>
+
+    <!-- Style css Link -->
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+    
+
+
+
+    <!-- JavaScript Link-->
+    <script src="./asset/js/script.js"></script>
+</body>
+</html>
+
+
+--------------------->
+
+
+
+
+<!----------------------------
+css comone syntext 
+------------------------------->
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    text-transform: none;
+    transition: all .2s linear;
+}
+
+html,body{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+section{
+    padding: 7rem 9%;
+}
+
+
+<!----------------------------
+ css BackGround Desinge 
+------------------------------->
+
+
+background: rgba(0, 0, 0, 0.295) url(image/image\ 1.jpg);
+background-blend-mode: darken;
+
+ background: linear-gradient(
+        to right,
+        var(--primary-color),
+        var(--primary-color-dark)
+ );
+
+<!----------------------------
+ css Animetion
+------------------------------->
+
+
+
+.bubbles img{
+    width: 50px;
+    animation: bubble 7s linear infinite;
+}
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+<!----------------------------
+Tablet Type Responsive syntetx css
+------------------------------->
+@media(max-width: 768px){
+    .card{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+<!----------------------------
+Mobile Type Responsive syntetx css
+------------------------------->
+@media(max-width: 568px){
+
+}
