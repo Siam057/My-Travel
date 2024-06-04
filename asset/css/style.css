@@ -1009,6 +1009,7 @@ Mobile Type Responsive syntetx css
 
     .input{
         padding-right: 0;
+        width: 100%;
     }
         
 }
